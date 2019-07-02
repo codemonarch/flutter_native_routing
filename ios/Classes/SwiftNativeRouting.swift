@@ -1,10 +1,10 @@
 import Flutter
 
-public func nativeRouting(block:(_ r: NativeRouting.Type) -> Void) {
-    block(NativeRouting.self)
+public func nativeRouting(block:(_ r: SwiftNativeRouting.Type) -> Void) {
+    block(SwiftNativeRouting.self)
 }
 
-public class NativeRouting {
+public class SwiftNativeRouting: NSObject, FlutterPlugin {
 
     private static let channelName = "com.rarnu.flutter/routing"
 

@@ -1,7 +1,7 @@
 name: native_routing
 description: A new flutter plugin project.
-version: 0.0.1
-author: rarnu
+version: 0.0.2
+author: rarnu <rarnu1985@gmail.com>
 homepage: https://github.com/codemonarch/flutter_native_routing
 
 environment:

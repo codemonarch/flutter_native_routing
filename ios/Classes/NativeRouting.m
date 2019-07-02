@@ -3,6 +3,6 @@
 
 @implementation NativeRouting
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [NativeRouting registerWithRegistrar:registrar];
+  [SwiftNativeRouting registerWithRegistrar:registrar];
 }
 @end
